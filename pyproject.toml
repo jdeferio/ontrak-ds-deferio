@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ontrak-ds-deferio"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.0"
+numpy = "^1.19.4"
+jupyterlab = "^3.0.0"
+jupyter = "^1.0.0"
+more-itertools = "^8.6.0"
+python-Levenshtein = "^0.12.0"
+hypothesis = "^5.43.4"
+xlrd = "^2.0.1"
+openpyxl = "^3.0.5"
+black = "^20.8b1"
+isort = "^5.7.0"
+docformatter = "^1.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
